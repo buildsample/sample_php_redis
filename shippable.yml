@@ -16,6 +16,7 @@ script:
   - phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage tests/RedisExampleTest.php
 after_script:
   - cp README.md ./shippable
+archive: true
 
 notifications:
   email: false
