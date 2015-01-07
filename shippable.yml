@@ -18,4 +18,5 @@ script:
 notifications:
   email: false
 #cache: true
+
 build_image: shippable/minv2:beta
