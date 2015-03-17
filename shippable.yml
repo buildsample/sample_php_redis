@@ -1,11 +1,12 @@
 language: php
 
+
 php: 
   - 5.5
   - 5.4
 
-services:
-  - redis
+#services:
+ # - redis
 
 before_script: 
   - mkdir -p shippable/testresults
