@@ -1,6 +1,4 @@
 language: php
-
-
 php: 
   - 5.5
   - 5.4
@@ -17,7 +15,8 @@ script:
   - phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage tests/RedisExampleTest.php
 
 notifications:
-  email: false
+  email: buildsampletest@gmail.com
 #cache: true
+
 
 #build_image: shippable/minv2:beta
